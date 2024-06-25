@@ -8,16 +8,16 @@ Calclation *x, *y;
 int main()
 {
 	//インスタンスＸの処理
-	x = new Calclation;
+	x = new Calclation;	//コンストラクタ　クラス名
 	SetX(5.0, 10.0);
 	x->Disp();
-	delete x;
+	delete x;	//デストラクタ
 
 	//インスタンスＹの処理
-	y = new Calclation;
+	y = new Calclation;	//コンストラクタ　クラス名
 	SetY(8.0, 3.0);
 	y->Disp();
-	delete y;
+	delete y;	//デストラクタ
 }
 //インスタンスＸのアクセス関数を呼ぶ
 void SetX(float a, float b)
